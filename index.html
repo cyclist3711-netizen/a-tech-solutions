@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>A-Tech & Innovations | IoT & Automation Services</title>
+<title>A-tech Innovation | Smart IoT & Automation Solutions</title>
 
 <style>
 
@@ -31,18 +31,19 @@ color:white;
 }
 
 .dark .card,
-.dark .contact-box{
-background:#1f1f1f;
+.dark .contact-box,
+.dark .hero{
+background:#1e1e1e;
 color:white;
 }
 
 header{
 background:linear-gradient(135deg,#0A66C2,#004080);
-color:white;
 padding:15px 30px;
+color:white;
 position:sticky;
 top:0;
-z-index:999;
+z-index:1000;
 }
 
 nav{
@@ -67,15 +68,15 @@ margin-left:20px;
 }
 
 nav ul li a{
-color:white;
 text-decoration:none;
+color:white;
 font-weight:bold;
 }
 
 .hero{
+background:white;
 text-align:center;
 padding:120px 20px;
-background:white;
 }
 
 .hero h1{
@@ -91,9 +92,9 @@ margin-bottom:25px;
 
 .btn{
 display:inline-block;
-padding:12px 25px;
 background:#0A66C2;
 color:white;
+padding:12px 25px;
 text-decoration:none;
 border-radius:5px;
 margin:5px;
@@ -129,6 +130,11 @@ transition:0.3s;
 transform:translateY(-8px);
 }
 
+.card h3{
+margin-bottom:10px;
+color:#0A66C2;
+}
+
 .contact-box{
 background:white;
 padding:20px;
@@ -136,7 +142,8 @@ border-radius:10px;
 box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-input,textarea{
+input,
+textarea{
 width:100%;
 padding:12px;
 margin:10px 0;
@@ -145,10 +152,10 @@ border-radius:5px;
 }
 
 button{
-padding:12px 20px;
 background:#0A66C2;
 color:white;
 border:none;
+padding:12px 20px;
 border-radius:5px;
 cursor:pointer;
 }
@@ -189,7 +196,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 text-decoration:none;
-font-size:25px;
+font-size:24px;
 }
 
 </style>
@@ -208,7 +215,7 @@ document.body.classList.toggle("dark");
 
 <nav>
 
-<div class="logo">🚀 A-Tech Solutions</div>
+<div class="logo">🚀 Atech Innovation</div>
 
 <ul>
 <li><a href="#home">Home</a></li>
@@ -226,10 +233,10 @@ document.body.classList.toggle("dark");
 
 <section id="home" class="hero">
 
-<h1>A-Tech Solutions</h1>
+<h1>Atech Innovation</h1>
 
 <p>
-Professional IoT, ESP32, Raspberry Pi & Automation Solutions
+Turning Ideas Into Smart Technology
 </p>
 
 <a href="#projects" class="btn">View Projects</a>
@@ -244,8 +251,9 @@ Professional IoT, ESP32, Raspberry Pi & Automation Solutions
 <div class="card">
 
 <p>
-A-Tech Solutions specializes in Arduino, ESP32, Raspberry Pi,
-RFID Attendance Systems and Automation Solutions.
+Atech Innovation specializes in IoT Development, ESP32 Projects, Arduino Programming, Raspberry Pi Solutions, RFID Attendance Systems and Automation Technologies.
+
+We develop innovative technology solutions for educational institutions, businesses and smart automation applications.
 </p>
 
 </div>
@@ -275,7 +283,7 @@ RFID Attendance Systems and Automation Solutions.
 
 <div class="card">
 <h3>Raspberry Pi</h3>
-<p>Automation Solutions</p>
+<p>Automation Projects</p>
 </div>
 
 </div>
@@ -290,22 +298,32 @@ RFID Attendance Systems and Automation Solutions.
 
 <div class="card">
 <h3>🌐 IoT Development</h3>
-<p>Smart connected solutions.</p>
+<p>Custom IoT solutions using ESP32 and cloud technology.</p>
 </div>
 
 <div class="card">
-<h3>⚙ Arduino Projects</h3>
-<p>Embedded and automation systems.</p>
+<h3>⚙️ Arduino Projects</h3>
+<p>Embedded systems and automation solutions.</p>
 </div>
 
 <div class="card">
 <h3>📡 RFID Attendance Systems</h3>
-<p>Attendance monitoring solutions.</p>
+<p>Smart attendance tracking and monitoring systems.</p>
 </div>
 
 <div class="card">
-<h3>🥧 Raspberry Pi Projects</h3>
-<p>Data logging and automation.</p>
+<h3>🥧 Raspberry Pi Solutions</h3>
+<p>Automation, monitoring and data logging projects.</p>
+</div>
+
+<div class="card">
+<h3>📶 ESP32 Development</h3>
+<p>Wi-Fi enabled smart devices and monitoring platforms.</p>
+</div>
+
+<div class="card">
+<h3>🏠 Home Automation</h3>
+<p>Smart appliance and lighting control systems.</p>
 </div>
 
 </div>
@@ -314,120 +332,14 @@ RFID Attendance Systems and Automation Solutions.
 
 <section id="projects" class="section">
 
-<h2>Projects</h2>
+<h2>Our Projects</h2>
 
 <div class="cards">
 
 <div class="card">
 <h3>🤖 Smart Waste Management System</h3>
-<p>Status: Completed ✅</p>
+<p>Automatic lid control using ultrasonic sensors and LCD display.</p>
 </div>
 
 <div class="card">
-<h3>📡 RFID Attendance System</h3>
-<p>Status: Active 🚀</p>
-</div>
-
-<div class="card">
-<h3>🥧 Raspberry Pi Attendance Logger</h3>
-<p>Status: Completed ✅</p>
-</div>
-
-<div class="card">
-<h3>📶 ESP32 Dashboard</h3>
-<p>Status: Development 🚀</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Skills & Technologies</h2>
-
-<div class="cards">
-
-<div class="card">ESP32</div>
-<div class="card">Arduino</div>
-<div class="card">Raspberry Pi</div>
-<div class="card">RFID</div>
-<div class="card">Wi-Fi</div>
-<div class="card">IoT Sensors</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Our Mission</h2>
-
-<div class="card">
-
-<p>
-Deliver innovative and reliable IoT and automation solutions
-using modern embedded technologies.
-</p>
-
-</div>
-
-</section>
-
-<section id="contact" class="section">
-
-<h2>Contact Us</h2>
-
-<div class="contact-box">
-
-<p><strong>Owner:</strong> Akshay</p>
-<p><strong>Location:</strong> Thrissur, Kerala</p>
-<p><strong>Phone:</strong> +91 9495044952</p>
-
-<p>
-<strong>Website:</strong><br>
-https://cyclist3711-netizen.github.io/a-tech-solutions/
-</p>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Send a Message</h2>
-
-<form>
-
-<input type="text" placeholder="Your Name">
-
-<input type="email" placeholder="Your Email">
-
-<textarea rows="5" placeholder="Your Message"></textarea>
-
-<button type="submit">
-Send Message
-</button>
-
-</form>
-
-</section>
-
-<footer>
-
-<h3>A-Tech Solutions</h3>
-
-<p>IoT • ESP32 • Raspberry Pi • Automation</p>
-
-<br>
-
-<p>© 2026 All Rights Reserved</p>
-
-</footer>
-
-<a href="https://wa.me/919495044952?text=Hello%20A-Tech%20Solutions" class="whatsapp">💬</a>
-
-<a href="#home" class="topbtn">↑</a>
-
-</body>
-</html>
+<h3>📡 RFID Attendance
